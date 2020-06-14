@@ -1,9 +1,8 @@
 """Pacman
+import choice
+import *
 
-
-from random import choice
-from turtle import *
-from freegames import floor, vector
+import floor, vector
 
 state = {'score': 0}
 path = Turtle(visible=False)
